@@ -8,7 +8,7 @@
 
 ​	To address this gap, we introduce **CDOCRAG-BENCH**, the first large-scale, multilingual, multimodal benchmark designed specifically for document RAG. The benchmark comprises an extensive corpus of over 62,000 pages, featuring multilingual and multi-type documents. 2,000 single-hop and 2,000 multi-hop queries are synthesized and examined using a knowledge-graph-driven pipeline and fine-grained principles, with evidence labels searched exhaustively. Crucially, to ensure high precision, all ground-truth annotations are then refined through expert human review. We evaluate seven state-of-the-art embedding models and three end-to-end RAG frameworks, demonstrating that multimodal embeddings yield significant retrieval gains up to 15.48% compared to textual embeddings, and current frameworks still struggle with effective pipelines for multi-page understanding. By diagnosing key shortcomings of current approaches and offering a comprehensive evaluation framework, CDOCRAG-BENCH provides a rigorous foundation for future research in multimodal document retrieval-augmented generation.
 
-![pipeline](asset\pipeline.png)
+![pipeline](https://raw.githubusercontent.com/Episoode/DocRAG_Bench/main/asset/pipeline.png)
 
 
 
